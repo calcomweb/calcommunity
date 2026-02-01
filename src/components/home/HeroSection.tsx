@@ -5,7 +5,14 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-primary/5 to-background py-20 lg:py-32">
       <div className="container">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/logo.png"
+              alt="CAL Community logo"
+              className="h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 object-contain drop-shadow"
+            />
+          </div>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
             <Users size={16} />
             <span>Öğrenciler & Mezunlar Bir Arada</span>
