@@ -13,7 +13,7 @@ const Header = () => {
           <img
             src="/logo.png"
             alt="CAL Community logo"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain rounded-full"
           />
           <span className="hidden font-semibold sm:inline-block">CAL Community</span>
         </Link>
